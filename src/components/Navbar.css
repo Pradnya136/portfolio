@@ -1,0 +1,51 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding: 10px 100px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+nav ul li {
+  line-height: 38px;
+  color: blue;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+nav ul li:hover {
+  color: #fff;
+  background: #ec7f5e;
+}
+.div {
+  display: flex;
+  /* width: 100%; */
+  background-color: rgb(16, 19, 27);
+  color: beige;
+  justify-content: space-evenly;
+  text-decoration: none;
+  position: sticky;
+}
+.ul {
+  list-style: none;
+  cursor: pointer;
+}
+.li1 {
+  display: inline-block;
+  padding-left: 972px;
+  margin-right: 20px;
+}
+.li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  color: honeydew;
+  cursor: pointer;
+}
+.ul :hover {
+  color: rgb(154, 241, 104);
+}

@@ -1,0 +1,31 @@
+.divSkill {
+  background: antiquewhite;
+  padding: 100px;
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: auto auto auto auto;
+  background-image: url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.divSkill1 {
+  margin: 50px;
+  padding: 30px;
+  height: 100px;
+  width: 200px;
+  border-radius: 5px;
+  border: solid rgb(38, 204, 233) 1px;
+  text-align: center;
+  background-color: rgb(38, 204, 233);
+  font-size: 25px;
+  /* box-shadow: 0 0 10px rgb(168, 210, 236); */
+  transition: width 2s;
+  color: black;
+  font-family: sans-serif;
+}
+.divSkill1:hover {
+  font-family: sans-serif;
+  color: rgb(38, 204, 233);
+  width: 300px;
+  background-color: black;
+}

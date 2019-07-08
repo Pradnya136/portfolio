@@ -1,0 +1,394 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow|Great+Vibes|Poiret+One&display=swap");
+.main {
+  background-image: linear-gradient(rgb(1, 7, 10), black);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 350px;
+}
+.main > * {
+  padding: 20px;
+}
+.sec1 div {
+  max-width: 500px;
+}
+
+.sec1 {
+  margin-bottom: 70px;
+  height: 625px;
+  background-image: linear-gradient(rgb(29, 11, 41), black);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  min-height: 350px;
+  flex-direction: column;
+  padding-bottom: 150px;
+  padding-top: 150px;
+}
+.sec2 {
+  height: 625px;
+  /* background-image: url(https://i.pinimg.com/originals/59/e7/58/59e758cd94b6a989aa2cc7b4eeb68098.jpg); */
+
+  height: 100px;
+  flex-grow: 1;
+  min-height: 350px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  font-family: "Poiret One", cursive;
+  font-size: 25px;
+  color: bisque;
+  /* background-attachment: fixed;
+  background-size: cover; */
+}
+.sec3 {
+  padding-top: 150px;
+
+  height: 625px;
+  background: black;
+  height: 110vh;
+  flex-grow: 1;
+  min-height: 450px;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-size: 30px;
+  color: coral;
+
+  background-color: black;
+
+  text-align: center;
+}
+.sec4 {
+  font-family: "Poiret One", cursive;
+  font-size: 30px;
+  color: rgb(233, 235, 241);
+  text-align: center;
+  height: 1300px;
+  background-image: url(https://images.wallpaperscraft.com/image/surface_mesh_light_dark_67024_300x168.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  /* height: 100vh; */
+  margin: 20px;
+  flex-grow: 1;
+  /* min-height: 350px; */
+  flex-direction: column;
+  padding-top: 20px;
+  text-decoration: underline;
+}
+.sec5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 150px;
+  /* font-family: monospace; */
+  border-bottom: 1px solid rgb(28, 23, 46);
+  box-shadow: 2px wheat;
+  color: cadetblue;
+}
+.typewriter p {
+  font-family: monospace;
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  padding: 0 auto;
+  /* letter-spacing: 0.15em; */
+  animation: typing 4.5s steps(30, end), blinking-cursor 0.5s step-end infinite;
+}
+.typewriter h3 {
+  animation: typing 4.5s steps(30, end), blinking-cursor 0.5s step-end infinite;
+  animation-delay: 4 s;
+  width: 585px;
+  font-family: monospace;
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  padding: 0 auto;
+  text-emphasis: hidden;
+
+  /* letter-spacing: 0.15em; */
+}
+h3:nth-child(2) {
+  animation: typewriter1 16s steps(60, end),
+    blinking-cursor 0.5s step-end infinite;
+}
+@keyframes typewriter1 {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 0;
+  }
+  100% {
+    width: 100;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blinking-cursor {
+  0% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+.spanOfcontact {
+  padding: 10px;
+  border: solid white 1px;
+  margin-bottom: 20px;
+}
+.spanOfcontact:hover {
+  color: black;
+  background: dodgerblue;
+  border: dodgerblue;
+}
+.link {
+  color: cadetblue;
+}
+.link:hover {
+  color: black;
+}
+.ulLink,
+.sectionOfLinks {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 20px;
+
+  list-style: none;
+}
+
+.h4class {
+  color: aliceblue;
+  font-family: monospace;
+  font-size: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: flex-end;
+}
+.spanFooter,
+.ptag {
+  color: rgb(246, 81, 63);
+}
+footer {
+  text-align: center;
+}
+.spandot {
+  color: transparent;
+}
+.viewmore {
+  background: transparent;
+  border: 2px solid inset white;
+  color: azure;
+}
+.ul {
+  background-image: url(https://i.pinimg.com/originals/59/e7/58/59e758cd94b6a989aa2cc7b4eeb68098.jpg);
+  text-decoration: none;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 100px;
+  position: relative;
+  background-color: brown;
+  /* animation-name: example;
+  animation-duration: 6s;
+
+  animation-iteration-count: infinite; */
+}
+/* .listitem1 {
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+
+  animation-iteration-count: infinite;*/
+
+.listitem1 {
+  animation: fadeOut 5s 2;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+.ul {
+  background-image: linear-gradient(rgb(12, 27, 49), rgb(6, 1, 22), black);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.listitem2 {
+  animation-delay: 2s 2;
+
+  animation: fadeOut 2.5s 2;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+.listitem3 {
+  animation: fadeOut 5s 2;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+.listitem4 {
+  animation: fadeOut 2.5s 2;
+  animation-direction: alternate;
+
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.lightSpeedOut {
+  -webkit-animation-name: lightSpeedOut;
+  animation-name: lightSpeedOut;
+}
+
+@keyframes example {
+  0% {
+    left: 0px;
+    top: 100px;
+  }
+  to {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.divW {
+  width: 100px;
+  height: 100px;
+  background: transparent;
+  position: relative;
+  border-left: solid white 2px;
+  border-bottom: solid white 2px;
+  color: transparent;
+
+  animation: mymove 5s infinite;
+}
+.divW:hover {
+  color: transparent;
+  border-left: solid rgb(130, 235, 229) 2px;
+  border-bottom: solid rgb(92, 226, 226) 2px;
+}
+.divInS3 {
+  width: 100px;
+  height: 100px;
+  background-image: linear-gradient(grey, blue);
+  transition: width 2s;
+}
+.divInS3:hover {
+  width: 300px;
+}
+/* @keyframes mymove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 200px;
+  }
+} */
+#h6 {
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-right: 0px;
+  margin-top: 345px;
+  margin-left: 445px;
+  text-decoration: none;
+}
+.div1frmApp {
+  display: flex;
+  background-color: rgb(34, 20, 65);
+  color: aliceblue;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 625px;
+  font-size: 30px;
+}
+.div2frmApp {
+  display: flex;
+  background-color: rgb(157, 122, 235);
+  color: aliceblue;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 625px;
+  font-size: 30px;
+}
+.div3frmApp {
+  display: flex;
+  background-color: rgb(175, 167, 192);
+  color: aliceblue;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 625px;
+  font-size: 30px;
+}
+.appSpan {
+  color: salmon;
+}
+.spanN {
+  color: salmon;
+}
+.spanD {
+  color: transparent;
+}
+footer {
+  font-size: 15px;
+  color: grey;
+  text-shadow: 0 0 10px blue;
+  padding-top: 20px;
+}
+
+/* //app logo css.. */
+/* .App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+/* @media screen and (min-width: 550px) {
+  .main-sec1 {
+    width: auto;
+    margin-top: 0;
+  }
+} */

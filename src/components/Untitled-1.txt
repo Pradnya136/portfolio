@@ -1,0 +1,95 @@
+ <div className="Div1">
+          Hello,I'm <span className="appSpan">Pradnya Sonawane </span>.
+          <br /> A self taught Front-End Web Developer
+          <br />
+          <br />
+          <button className="view">View more -></button>
+        </div>
+
+           return (
+      <React.Fragment>
+        {/* <div className="App"> */}
+        <div className="Div1">
+          Hello,I'm <span className="appSpan">Pradnya Sonawane </span>.
+          <br /> A self taught Front-End Web Developer
+          <br />
+          <br />
+          <button className="view">View more -></button>
+        </div>
+        {/* </div> */}
+        {/* <Navbar className="navbar" />
+        <PartOne className="partone" /> */}
+      </React.Fragment>
+    );
+  }
+}
+
+export default App;
+...................................................css styles fr app.................
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+}
+
+.Div1 {
+  background-color: rgb(36, 48, 73);
+  color: whitesmoke;
+  font-family: monospace;
+  font-size: 15px;
+  /* padding-top: 180px; */
+}
+
+.partone {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+.appSpan {
+  color: lightcoral;
+}
+.view {
+  font-family: monospace;
+  font-size: 28px;
+  border: solid white inset 2px;
+  background: transparent;
+  color: whitesmoke;
+}
+.view:hover {
+  background: blueviolet;
+  color: whitesmoke;
+}
+...........................allfrm begining.......................
+       <div className="div1frmApp">
+          Hello, I'm Pradnya Sonawane.
+          <br /> A self taught Front-End Web Developer living in Pune.
+          <br />
+          <div id="h6">
+            e<br />x<br /> p<br /> l<br />o<br /> r<br />e<br />↓
+          </div>
+        </div>
+        <Navbar />
+        <div className="div2frmApp">
+          <ul className="ul">
+            <li>Building beautiful websites and applications</li>
+            <br />
+            <li> Aiming to code clean and create responsive websites</li>
+            <br />
+            <li>Main focus on Javascript</li>
+            <br />
+            <li>And a problem-solving oriented approach</li>
+            <br />
+          </ul>
+        </div>
+        <div className="div3frmApp">
+          <PartOne />
+        </div>
+
+        ....................................
+        .................................
+                       Hello,I'am<span className="spanD">.</span>{" "}
+                <span className="appSpan">Pradnya Sonawane </span>. A self
+                taught Front-End Web Developer
