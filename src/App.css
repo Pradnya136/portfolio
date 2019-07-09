@@ -59,7 +59,7 @@
   background: black;
   height: 110vh;
   flex-grow: 1;
-  min-height: 550px;
+  min-height: 370px;
   flex-direction: column;
   font-family: sans-serif;
   font-size: 30px;
@@ -84,7 +84,7 @@
   height: 350vh;
   margin: 20px;
   flex-grow: 1;
-  min-height: 850px;
+  min-height: 550px;
   flex-direction: column;
   padding-top: 50px;
   text-decoration: underline;
