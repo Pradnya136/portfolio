@@ -16,6 +16,7 @@
   display: flex;
   flex-wrap: wrap;
   max-width: 500px;
+  height: 400px;
 }
 
 .sec1 {
@@ -36,17 +37,18 @@
   font-size: 80px;
 }
 .sec2 {
-  height: 625px;
+  height: 725px;
   margin-top: 20px;
   /* background-image: url(https://i.pinimg.com/originals/59/e7/58/59e758cd94b6a989aa2cc7b4eeb68098.jpg); */
   padding-top: 120px;
-  height: 500px;
+  height: 560px;
   flex-grow: 1;
-  min-height: 500px;
+  min-height: 560px;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   display: flex;
+  flex-wrap: wrap;
   font-family: "Poiret One", cursive;
   font-size: 25px;
   color: bisque;
@@ -67,7 +69,8 @@
   color: coral;
   margin-bottom: 60px;
   background-color: black;
-
+  display: flex;
+  flex-wrap: wrap;
   text-align: center;
 }
 .sec4 {
@@ -77,14 +80,14 @@
   font-size: 30px;
   color: rgb(233, 235, 241);
   text-align: center;
-  height: 1300px;
+  height: 720px;
   background-image: url(https://images.wallpaperscraft.com/image/surface_mesh_light_dark_67024_300x168.jpg);
   background-size: cover;
   background-attachment: fixed;
-  /* height: 100vh; */
+  height: 300vh;
   margin: 20px;
   flex-grow: 1;
-  /* min-height: 350px; */
+  min-height: 550px;
   flex-direction: column;
   padding-top: 20px;
   text-decoration: underline;
