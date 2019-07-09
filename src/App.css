@@ -55,7 +55,7 @@
 .sec3 {
   padding-top: 200px;
 
-  height: 625px;
+  height: 375px;
   background: black;
   height: 110vh;
   flex-grow: 1;
@@ -77,11 +77,11 @@
   font-size: 30px;
   color: rgb(233, 235, 241);
 
-  height: 1300px;
+  height: 550px;
   background-image: url(https://images.wallpaperscraft.com/image/surface_mesh_light_dark_67024_300x168.jpg);
   background-size: cover;
   background-attachment: fixed;
-  height: 350vh;
+  height: 250vh;
   margin: 20px;
   flex-grow: 1;
   min-height: 550px;
