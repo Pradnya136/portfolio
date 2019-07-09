@@ -55,11 +55,11 @@
 .sec3 {
   padding-top: 200px;
 
-  height: 350px;
+  height: 375px;
   background: black;
-  height: 160vh;
+  height: 110vh;
   flex-grow: 1;
-  min-height: 310px;
+  min-height: 375px;
   flex-direction: column;
   font-family: sans-serif;
   font-size: 30px;
@@ -77,14 +77,14 @@
   font-size: 30px;
   color: rgb(233, 235, 241);
 
-  height: 360px;
+  height: 400px;
   background-image: url(https://images.wallpaperscraft.com/image/surface_mesh_light_dark_67024_300x168.jpg);
   background-size: cover;
   background-attachment: fixed;
-  height: 210vh;
+  height: 250vh;
   margin: 20px;
   flex-grow: 1;
-  min-height: 360px;
+  min-height: 380px;
   flex-direction: column;
   padding-top: 50px;
   text-decoration: underline;
