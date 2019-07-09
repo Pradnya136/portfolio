@@ -21,10 +21,9 @@ class App extends Component {
               <div className="h4class">
                 <div className="typewriter">
                   <p>
-                    Hello,I'm <span className="ptag">Pradnya Sonawane</span>.
+                    Hello,I'm <span className="ptag">Pradnya Sonawane</span>...↓
+                    ↓
                   </p>
-
-                  <h3> A self taught Front-End Web Developer.</h3>
                 </div>
               </div>
               <br />
@@ -32,20 +31,30 @@ class App extends Component {
             <section className="sec2">
               About Me
               <ul className="ul">
+                {" "}
+                <li className="listitem0">
+                  I am Self taught Web developer mainly focus on Front-end,
+                  learning back-end as well.
+                </li>
+                <p>What I do =</p>
+                <br />
                 <li className="listitem1">
-                  Building beautiful websites and applications
+                  Build beautiful websites and applications
                 </li>
                 <br />
                 <li className="listitem2">
                   Aiming to code clean and create responsive websites
                 </li>
                 <br />
-                <li className="listitem3">Main focus on Javascript</li>
+                <li className="listitem3">Main focus on Javascript,React Js</li>
                 <br />
                 <li className="listitem4">
                   And a problem-solving oriented approach
                 </li>
                 <br />
+                <li className="listitem3">
+                  Always seek for improvement in code by following DRY method
+                </li>
                 <div className="divW">div</div>
               </ul>
             </section>
