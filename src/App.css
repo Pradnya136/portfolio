@@ -59,33 +59,34 @@
   background: black;
   height: 110vh;
   flex-grow: 1;
-  min-height: 450px;
+  min-height: 550px;
   flex-direction: column;
   font-family: sans-serif;
   font-size: 30px;
   color: coral;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
   background-color: black;
 
   text-align: center;
 }
 .sec4 {
   display: flex;
+  text-align: center;
   flex-wrap: wrap;
   font-family: "Poiret One", cursive;
   font-size: 30px;
   color: rgb(233, 235, 241);
-  text-align: center;
+
   height: 1300px;
   background-image: url(https://images.wallpaperscraft.com/image/surface_mesh_light_dark_67024_300x168.jpg);
   background-size: cover;
   background-attachment: fixed;
-  /* height: 100vh; */
+  height: 350vh;
   margin: 20px;
   flex-grow: 1;
-  /* min-height: 350px; */
+  min-height: 850px;
   flex-direction: column;
-  padding-top: 20px;
+  padding-top: 50px;
   text-decoration: underline;
 }
 .sec5 {
