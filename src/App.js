@@ -1,13 +1,12 @@
 import React, { Component } from "react";
-import PartOne from "./components/PartOne";
-import Navbar from "./components/Navbar";
+// import PartOne from "./components/PartOne";
+// import Navbar from "./components/Navbar";
 import "./App.css";
 import Particles from "react-particles-js";
 import "bootstrap/dist/css/bootstrap.css";
 import Carousel from "./components/Carousel";
 import Contact from "./components/Contact";
 import Skill from "./components/Skill";
-import ItemList from "./components/ItemList.png";
 
 class App extends Component {
   state = {};
@@ -21,22 +20,23 @@ class App extends Component {
               <div className="h4class">
                 <div className="typewriter">
                   <p>
-                    Hello,I'm <span className="ptag">Pradnya Sonawane</span>...↓
-                    ↓
+                    Hello,I'm <span className="dot">.</span>
+                    <span className="ptag">Pradnya Sonawane</span>...↓
                   </p>
                 </div>
               </div>
               <br />
             </section>
+
             <section className="sec2">
-              About Me
-              <ul className="ul">
-                {" "}
-                <li className="listitem0">
+              <ul className="unorderli">
+                About Me
+                <br />
+                <li className="listitem00">
                   I am Self taught Web developer mainly focus on Front-end,
                   learning back-end as well.
                 </li>
-                <p>What I do =</p>
+                <li>What I do =</li>
                 <br />
                 <li className="listitem1">
                   Build beautiful websites and applications
@@ -55,7 +55,6 @@ class App extends Component {
                 <li className="listitem3">
                   Always seek for improvement in code by following DRY method
                 </li>
-                <div className="divW">div</div>
               </ul>
             </section>
             <section className="sec3">
